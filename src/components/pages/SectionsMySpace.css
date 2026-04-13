@@ -1,0 +1,29 @@
+.SectionsList{
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+ list-style-type : none;
+ box-sizing: border-box;
+ padding: 6px 20px 0;
+ gap: 16px;
+ margin-bottom: 10px;
+ align-items: center;
+ background-color: #ffffff;
+ border-radius: 8px;
+ z-index: 5;
+}
+
+
+.SectionItem{
+  padding: 18px 0px;
+  text-decoration: none;
+  
+  
+}
+
+.SectionLink{
+  text-decoration: none;
+  color: #222222;
+  font-family: sans-serif;
+  font-weight: 500;
+}

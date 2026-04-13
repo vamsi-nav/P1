@@ -1,0 +1,16 @@
+.HelpBarr{
+  display: grid;
+  justify-items: center;
+  background-color: rgb(112, 112, 112);
+  width: 45px;
+  height: 100%;
+}
+
+.HelpIcon{
+  width: 25px;
+  padding: 3px;
+  background-color: rgb(85, 85, 85);
+  border-radius: 10px;
+  margin-top: 65px;
+  
+}

@@ -1,0 +1,33 @@
+.DivBar{
+  display: flex;
+  flex-direction: row;
+  inset-block-start: 68px;
+  inset-block-end: 45px;
+  inset-inline-start: 68px;
+  inset-inline-end: 45px;
+  top: 48px;
+  position: absolute;
+  height: 40px;
+  padding-left: 20px;
+  justify-content: left;
+  border-bottom: 0.5px;
+  border-bottom-style: solid ;
+  align-items: center;
+
+  
+}
+
+.sublinks{
+  margin-left: 0px;
+  margin-right: 0px;
+  text-decoration: none white;
+  font-size: 1  rem;
+  font-family: sans-serif;
+  color: black;
+  
+}
+
+.SubDivs{
+  display: flex;
+  gap: 25px;
+}

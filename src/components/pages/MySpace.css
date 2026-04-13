@@ -1,0 +1,352 @@
+
+.coverphoo{
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+
+.MySpacee{
+  display: block;
+  box-sizing: border-box;
+  height: 140px;
+  width: 100%;
+  position: relative;
+}
+
+
+.myspace-contents{
+  display: flex;
+  position: absolute;
+  inset-block-start: 110px;
+  inset-block-end: 0px;
+  margin-inline-start: 50px ;
+  margin-inline-end: 50px ;
+  inset-inline-end: 0;
+  inset-inline-start: 0;
+  gap: 8px;
+  box-sizing: border-box;
+ 
+
+}
+
+.UserDetails{
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  background-color: #edf0f4;
+  overflow-y:auto;
+  overflow-x: hidden;
+  flex-shrink: 0;
+  border-top-left-radius: 8px;
+ 
+  
+
+
+}
+
+.myspace-sections{
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-direction: row;
+  max-width: 856px;
+ 
+  box-sizing: border-box;
+  
+}
+
+.sectionsdiv{
+  display: flex;
+  flex: 1;
+  box-sizing: border-box;
+  flex-direction: column;
+}
+
+.UserProf{
+  display: flex;
+  flex-direction: column;
+
+  background-color: #ffffff;
+  flex-shrink: 0;
+  min-height: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  width: 100%;
+  gap: 8px;
+  max-width: 280px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0px 0px 8px;
+  padding: 20px;
+  box-sizing: border-box;
+   border: 1px solid #d7e2ed;
+  border-radius: 8px;
+  
+ 
+}
+.ManagerInfo{
+
+  background-color: rgb(255, 255, 255);
+  flex-shrink: 0;
+  min-height: 0;
+  overflow-y: auto;
+  box-sizing: border-box;
+  margin-bottom: 8px;
+  padding: 20px;
+    border: 1px solid #d7e2ed;
+  border-radius: 8px ;
+}
+.OthersList{
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  flex-shrink: 0;
+  min-height: 0;
+  overflow-y: auto;
+  margin-bottom: 8px;
+  border: 1px solid #d7e2ed;
+  border-radius: 8px ;
+}
+
+
+#UserProfImg{
+  width: 98px;
+  z-index: 3;
+  position: absolute;
+  inset-block-start: 90px;
+  margin-block-start: -155px;
+  overflow: hidden;
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+
+}
+
+figure{
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+
+  overflow: hidden;
+  max-width: 280px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  gap:28px
+  
+}
+
+figure::before{
+content: '';
+inline-size: 280px;
+background-color: #ffffff;
+block-size: 45px;
+z-index: 1;
+position: absolute;
+inset-inline-start: 0;
+inset-inline-end: 0;
+inset-block-start: 0;
+gap: 20px;
+border-top-left-radius: 8px;
+}
+
+.Activity{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.Details{
+  display: flex;
+  flex-direction: column;
+
+  
+
+  }
+em{
+  color: #666666;
+}
+
+em, b{
+  font-style: normal;
+  font-family: sans-serif;
+  font-size: 14px;
+  
+
+}
+
+
+.Time{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.UserName{
+  padding-bottom: 2px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+}
+
+.CheckInStatus{
+  color: #EC5158;
+  font-family: sans-serif;
+  font-size: 0.9rem;
+}
+
+.CheckInButton{
+ width: 110px;
+ height: 32px;
+ padding: 6px 14px;
+ background-color: #ffffff;
+
+ color: #0ebc6b;
+ border: 1px solid #0ebc6b;
+ border-radius: 4px;
+ cursor: pointer  ;
+}
+
+
+#ManagerDP{
+  width: 54px ;
+  border-radius: 7px;
+}
+
+.ManagerFlex{
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  box-sizing: border-box;
+}
+
+.TextinManager{
+  white-space:nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 180px;
+  font-style: normal;
+  font-family: sans-serif;
+
+}
+
+
+.AttendanceStatus{
+  color: #d98911;
+}
+
+#MemberDP{
+  width: 38px;
+  display: flex;
+  border-radius: 7px;
+}
+
+.DepartmentMembers{
+  color: #222222;
+  font-family: sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding-bottom: 16px;
+  font-weight: 550;
+}
+
+.TextinMember{
+  white-space:nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 180px;
+  font-style: normal;
+  font-family: sans-serif;
+
+
+}
+
+.MemberAttendance{
+  color: #ec5158;
+}
+
+.MemberCard{
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #eeeeee;
+  
+}
+
+.CardWrap{
+  inset-block-start: 70px;
+}
+
+.MoreMembers{
+  color: #0088FF;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+.GreetingCard{
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  gap: 16px;
+  align-items: center;
+}
+
+.logo{
+  display: flex;
+   border: 1px solid #eeeeee ;
+   border-radius: 5px;
+
+   flex-shrink: 0;
+   block-size: 62px;
+   inline-size: 100px;
+}
+
+.logoo{
+  width: 55px;
+  margin: 2.5px 21.5px;
+
+  
+}
+
+.textinGreeting{
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  inline-size: 85%;
+  align-content: center;
+  justify-content: center;
+  font-size: 15px;
+
+}
+.Afternoon{
+ height: 65px;
+}
+
+.Carddd{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  inline-size: 100%;
+}
+
+.Greeting{
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}

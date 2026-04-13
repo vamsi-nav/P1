@@ -1,0 +1,84 @@
+.HeaderDiv{
+  display: flex;
+  flex-direction: row;
+  inset-block-start: 0;
+  inset-inline-start: 68px;
+  inset-inline-end: 0;
+  inset-block-end: auto;
+  background-color: #2E3B61;
+  block-size: 48px;
+  align-items: center;
+  position: absolute;
+  
+  
+  list-style-type: none;
+  padding-right: 20px;
+  padding-left: 20px;
+  z-index: 800;
+
+}
+
+.QuickActions {
+  display: block;
+  width: 26px;
+  padding: 3px 3px;
+  background-color: aliceblue;
+  border-radius: 10px;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+
+.SearchEmployee, .Notifications {
+  display: block;
+  width: 25px;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+
+.Profile {
+  display: block;
+  width: 36px;
+  padding: 0%;
+  border-radius: 50%;
+  flex-wrap: wrap;
+  border:  2px solid  black;
+  cursor: pointer;
+}
+
+.no-bullets {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.SubSections {
+  display: flex;
+  flex-direction: row;
+
+  font-size: 2rem;
+  
+}
+
+.ConstIcons {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  margin-left: auto;
+  position: relative;
+  gap: 20px;
+}
+
+
+.links{
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-family: sans-serif;
+   padding: 20px;
+   padding-left: 0px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+
+
+

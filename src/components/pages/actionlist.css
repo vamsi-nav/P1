@@ -1,0 +1,28 @@
+.CheckIn{
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  font-family: sans-serif;
+  gap: 16px;
+  justify-items: stretch;
+  align-items: center;
+  justify-content: space-around;
+  
+  
+}
+
+.CheckInn{
+  width: 45px;
+}
+
+.Reminder{
+  display: flex;
+  flex-direction: column;
+  
+  display: flex;
+  flex-grow: 1;
+  gap: 4px;
+  white-space: nowrap;
+
+}
